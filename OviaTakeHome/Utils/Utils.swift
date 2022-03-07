@@ -29,6 +29,12 @@ extension String {
         }
         return result
     }
+    
+    func getAccessibilityStars() -> String {
+        let ratingDouble = (self as NSString).doubleValue
+        let numberOfStars = Int(ratingDouble / 2)
+        return "\(numberOfStars) out of five stars"
+    }
 }
 
 extension UIAlertController {

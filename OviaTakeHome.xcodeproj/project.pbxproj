@@ -20,6 +20,7 @@
 		4EA0893427D598F2003FBA41 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0893327D598F2003FBA41 /* Service.swift */; };
 		4EA0893927D59933003FBA41 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0893827D59933003FBA41 /* ViewModel.swift */; };
 		4EA0894527D599D9003FBA41 /* MovieTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0894427D599D9003FBA41 /* MovieTableCell.swift */; };
+		4EA0895B27D5A0BD003FBA41 /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0895A27D5A0BD003FBA41 /* UtilsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		4EA0893327D598F2003FBA41 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		4EA0893827D59933003FBA41 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		4EA0894427D599D9003FBA41 /* MovieTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableCell.swift; sourceTree = "<group>"; };
+		4EA0895A27D5A0BD003FBA41 /* UtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			children = (
 				4EA088FD27D594BA003FBA41 /* OviaTakeHomeTests.swift */,
 				4EA088FF27D594BA003FBA41 /* Info.plist */,
+				4EA0895A27D5A0BD003FBA41 /* UtilsTests.swift */,
 			);
 			path = OviaTakeHomeTests;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EA088FE27D594BA003FBA41 /* OviaTakeHomeTests.swift in Sources */,
+				4EA0895B27D5A0BD003FBA41 /* UtilsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

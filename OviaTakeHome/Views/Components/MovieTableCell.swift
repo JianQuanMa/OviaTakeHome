@@ -34,6 +34,7 @@ class MovieTableCell: UITableViewCell {
                     case .success(let response):
                         DispatchQueue.main.async { [weak self] in
                             self?.ratingLabel.text = response.imdbRating.getStars()
+                            self?.ratingLabel.accessibilityLabel = response.imdbRating.getAccessibilityStars()
                         }
                     case .failure( let err):
                         print("\(err)")
