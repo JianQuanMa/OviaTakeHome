@@ -16,6 +16,7 @@
 		4EA0890927D594BA003FBA41 /* OviaTakeHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0890827D594BA003FBA41 /* OviaTakeHomeUITests.swift */; };
 		4EA0892227D59698003FBA41 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0892127D59698003FBA41 /* RequestModel.swift */; };
 		4EA0892A27D59821003FBA41 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0892927D59821003FBA41 /* ResponseModel.swift */; };
+		4EA0892F27D5989F003FBA41 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0892E27D5989F003FBA41 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4EA0890A27D594BA003FBA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EA0892127D59698003FBA41 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
 		4EA0892927D59821003FBA41 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		4EA0892E27D5989F003FBA41 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		4EA0891D27D5963B003FBA41 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4EA0892E27D5989F003FBA41 /* Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				4EA088E927D594AF003FBA41 /* SceneDelegate.swift in Sources */,
 				4EA0892A27D59821003FBA41 /* ResponseModel.swift in Sources */,
 				4EA0892227D59698003FBA41 /* RequestModel.swift in Sources */,
+				4EA0892F27D5989F003FBA41 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
