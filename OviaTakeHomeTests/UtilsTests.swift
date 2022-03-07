@@ -39,20 +39,17 @@ class UtilsTests: XCTestCase {
         sut.textField.text = ""
         sut.searchButton.sendActions(for: .touchUpInside)
         let result = topMostController()
-        XCTAssertTrue(result is UIViewController)
+        XCTAssertTrue(result is UIAlertController)
     }
     
     func topMostController() -> UIViewController? {
         guard let window = UIApplication.shared.keyWindow, let rootViewController = window.rootViewController else {
             return nil
         }
-
         var topController = rootViewController
-
         while let newTopController = topController.presentedViewController {
             topController = newTopController
         }
-
         return topController
     }
 }
