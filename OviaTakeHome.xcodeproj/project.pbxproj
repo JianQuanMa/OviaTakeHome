@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EA088E727D594AF003FBA41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA088E627D594AF003FBA41 /* AppDelegate.swift */; };
+		4EA088E927D594AF003FBA41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA088E827D594AF003FBA41 /* SceneDelegate.swift */; };
+		4EA088EB27D594AF003FBA41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA088EA27D594AF003FBA41 /* ViewController.swift */; };
+		4EA088EE27D594AF003FBA41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA088EC27D594AF003FBA41 /* Main.storyboard */; };
+		4EA088F027D594BA003FBA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA088EF27D594BA003FBA41 /* Assets.xcassets */; };
+		4EA088F327D594BA003FBA41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA088F127D594BA003FBA41 /* LaunchScreen.storyboard */; };
+		4EA088FE27D594BA003FBA41 /* OviaTakeHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA088FD27D594BA003FBA41 /* OviaTakeHomeTests.swift */; };
+		4EA0890927D594BA003FBA41 /* OviaTakeHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0890827D594BA003FBA41 /* OviaTakeHomeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EA088FA27D594BA003FBA41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EA088DB27D594AF003FBA41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EA088E227D594AF003FBA41;
+			remoteInfo = OviaTakeHome;
+		};
+		4EA0890527D594BA003FBA41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EA088DB27D594AF003FBA41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EA088E227D594AF003FBA41;
+			remoteInfo = OviaTakeHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EA088E327D594AF003FBA41 /* OviaTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OviaTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA088E627D594AF003FBA41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EA088E827D594AF003FBA41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4EA088EA27D594AF003FBA41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EA088ED27D594AF003FBA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EA088EF27D594BA003FBA41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EA088F227D594BA003FBA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EA088F427D594BA003FBA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EA088F927D594BA003FBA41 /* OviaTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OviaTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA088FD27D594BA003FBA41 /* OviaTakeHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OviaTakeHomeTests.swift; sourceTree = "<group>"; };
+		4EA088FF27D594BA003FBA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EA0890427D594BA003FBA41 /* OviaTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OviaTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA0890827D594BA003FBA41 /* OviaTakeHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OviaTakeHomeUITests.swift; sourceTree = "<group>"; };
+		4EA0890A27D594BA003FBA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EA088E027D594AF003FBA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA088F627D594BA003FBA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA0890127D594BA003FBA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EA088DA27D594AF003FBA41 = {
+			isa = PBXGroup;
+			children = (
+				4EA088E527D594AF003FBA41 /* OviaTakeHome */,
+				4EA088FC27D594BA003FBA41 /* OviaTakeHomeTests */,
+				4EA0890727D594BA003FBA41 /* OviaTakeHomeUITests */,
+				4EA088E427D594AF003FBA41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EA088E427D594AF003FBA41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EA088E327D594AF003FBA41 /* OviaTakeHome.app */,
+				4EA088F927D594BA003FBA41 /* OviaTakeHomeTests.xctest */,
+				4EA0890427D594BA003FBA41 /* OviaTakeHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EA088E527D594AF003FBA41 /* OviaTakeHome */ = {
+			isa = PBXGroup;
+			children = (
+				4EA088E627D594AF003FBA41 /* AppDelegate.swift */,
+				4EA088E827D594AF003FBA41 /* SceneDelegate.swift */,
+				4EA088EA27D594AF003FBA41 /* ViewController.swift */,
+				4EA088EC27D594AF003FBA41 /* Main.storyboard */,
+				4EA088EF27D594BA003FBA41 /* Assets.xcassets */,
+				4EA088F127D594BA003FBA41 /* LaunchScreen.storyboard */,
+				4EA088F427D594BA003FBA41 /* Info.plist */,
+			);
+			path = OviaTakeHome;
+			sourceTree = "<group>";
+		};
+		4EA088FC27D594BA003FBA41 /* OviaTakeHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EA088FD27D594BA003FBA41 /* OviaTakeHomeTests.swift */,
+				4EA088FF27D594BA003FBA41 /* Info.plist */,
+			);
+			path = OviaTakeHomeTests;
+			sourceTree = "<group>";
+		};
+		4EA0890727D594BA003FBA41 /* OviaTakeHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EA0890827D594BA003FBA41 /* OviaTakeHomeUITests.swift */,
+				4EA0890A27D594BA003FBA41 /* Info.plist */,
+			);
+			path = OviaTakeHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EA088E227D594AF003FBA41 /* OviaTakeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EA0890D27D594BA003FBA41 /* Build configuration list for PBXNativeTarget "OviaTakeHome" */;
+			buildPhases = (
+				4EA088DF27D594AF003FBA41 /* Sources */,
+				4EA088E027D594AF003FBA41 /* Frameworks */,
+				4EA088E127D594AF003FBA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OviaTakeHome;
+			productName = OviaTakeHome;
+			productReference = 4EA088E327D594AF003FBA41 /* OviaTakeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EA088F827D594BA003FBA41 /* OviaTakeHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EA0891027D594BA003FBA41 /* Build configuration list for PBXNativeTarget "OviaTakeHomeTests" */;
+			buildPhases = (
+				4EA088F527D594BA003FBA41 /* Sources */,
+				4EA088F627D594BA003FBA41 /* Frameworks */,
+				4EA088F727D594BA003FBA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EA088FB27D594BA003FBA41 /* PBXTargetDependency */,
+			);
+			name = OviaTakeHomeTests;
+			productName = OviaTakeHomeTests;
+			productReference = 4EA088F927D594BA003FBA41 /* OviaTakeHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EA0890327D594BA003FBA41 /* OviaTakeHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EA0891327D594BA003FBA41 /* Build configuration list for PBXNativeTarget "OviaTakeHomeUITests" */;
+			buildPhases = (
+				4EA0890027D594BA003FBA41 /* Sources */,
+				4EA0890127D594BA003FBA41 /* Frameworks */,
+				4EA0890227D594BA003FBA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EA0890627D594BA003FBA41 /* PBXTargetDependency */,
+			);
+			name = OviaTakeHomeUITests;
+			productName = OviaTakeHomeUITests;
+			productReference = 4EA0890427D594BA003FBA41 /* OviaTakeHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EA088DB27D594AF003FBA41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4EA088E227D594AF003FBA41 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4EA088F827D594BA003FBA41 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4EA088E227D594AF003FBA41;
+					};
+					4EA0890327D594BA003FBA41 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4EA088E227D594AF003FBA41;
+					};
+				};
+			};
+			buildConfigurationList = 4EA088DE27D594AF003FBA41 /* Build configuration list for PBXProject "OviaTakeHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EA088DA27D594AF003FBA41;
+			productRefGroup = 4EA088E427D594AF003FBA41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EA088E227D594AF003FBA41 /* OviaTakeHome */,
+				4EA088F827D594BA003FBA41 /* OviaTakeHomeTests */,
+				4EA0890327D594BA003FBA41 /* OviaTakeHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EA088E127D594AF003FBA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA088F327D594BA003FBA41 /* LaunchScreen.storyboard in Resources */,
+				4EA088F027D594BA003FBA41 /* Assets.xcassets in Resources */,
+				4EA088EE27D594AF003FBA41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA088F727D594BA003FBA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA0890227D594BA003FBA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EA088DF27D594AF003FBA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA088EB27D594AF003FBA41 /* ViewController.swift in Sources */,
+				4EA088E727D594AF003FBA41 /* AppDelegate.swift in Sources */,
+				4EA088E927D594AF003FBA41 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA088F527D594BA003FBA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA088FE27D594BA003FBA41 /* OviaTakeHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA0890027D594BA003FBA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA0890927D594BA003FBA41 /* OviaTakeHomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EA088FB27D594BA003FBA41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EA088E227D594AF003FBA41 /* OviaTakeHome */;
+			targetProxy = 4EA088FA27D594BA003FBA41 /* PBXContainerItemProxy */;
+		};
+		4EA0890627D594BA003FBA41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EA088E227D594AF003FBA41 /* OviaTakeHome */;
+			targetProxy = 4EA0890527D594BA003FBA41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EA088EC27D594AF003FBA41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EA088ED27D594AF003FBA41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EA088F127D594BA003FBA41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EA088F227D594BA003FBA41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EA0890B27D594BA003FBA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EA0890C27D594BA003FBA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EA0890E27D594BA003FBA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OviaTakeHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jian-s-Solo-Adventure.OviaTakeHome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EA0890F27D594BA003FBA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OviaTakeHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jian-s-Solo-Adventure.OviaTakeHome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EA0891127D594BA003FBA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OviaTakeHomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jian-s-Solo-Adventure.OviaTakeHomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OviaTakeHome.app/OviaTakeHome";
+			};
+			name = Debug;
+		};
+		4EA0891227D594BA003FBA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OviaTakeHomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jian-s-Solo-Adventure.OviaTakeHomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OviaTakeHome.app/OviaTakeHome";
+			};
+			name = Release;
+		};
+		4EA0891427D594BA003FBA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OviaTakeHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jian-s-Solo-Adventure.OviaTakeHomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OviaTakeHome;
+			};
+			name = Debug;
+		};
+		4EA0891527D594BA003FBA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OviaTakeHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jian-s-Solo-Adventure.OviaTakeHomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OviaTakeHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EA088DE27D594AF003FBA41 /* Build configuration list for PBXProject "OviaTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA0890B27D594BA003FBA41 /* Debug */,
+				4EA0890C27D594BA003FBA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EA0890D27D594BA003FBA41 /* Build configuration list for PBXNativeTarget "OviaTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA0890E27D594BA003FBA41 /* Debug */,
+				4EA0890F27D594BA003FBA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EA0891027D594BA003FBA41 /* Build configuration list for PBXNativeTarget "OviaTakeHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA0891127D594BA003FBA41 /* Debug */,
+				4EA0891227D594BA003FBA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EA0891327D594BA003FBA41 /* Build configuration list for PBXNativeTarget "OviaTakeHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA0891427D594BA003FBA41 /* Debug */,
+				4EA0891527D594BA003FBA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EA088DB27D594AF003FBA41 /* Project object */;
+}
