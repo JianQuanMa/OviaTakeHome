@@ -31,6 +31,14 @@ extension String {
     }
 }
 
+extension UIAlertController {
+    static var custom: UIAlertController {
+        UIAlertController(title: "error", message: "Movie not found", preferredStyle: .alert).then{
+            $0.addAction(UIAlertAction(title: "done", style: .default))
+        }
+    }
+}
+
 protocol Then {}
 
 extension NSObject: Then {}
