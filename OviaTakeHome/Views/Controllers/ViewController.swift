@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.tableView.register(MovieTableCell.self, forCellReuseIdentifier: "MovieTableCell")
+        searchButton.sendActions(for: .touchUpInside)
     }
     
     private func setUpUI(){
