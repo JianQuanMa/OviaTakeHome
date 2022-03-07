@@ -14,6 +14,7 @@
 		4EA088F327D594BA003FBA41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA088F127D594BA003FBA41 /* LaunchScreen.storyboard */; };
 		4EA088FE27D594BA003FBA41 /* OviaTakeHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA088FD27D594BA003FBA41 /* OviaTakeHomeTests.swift */; };
 		4EA0890927D594BA003FBA41 /* OviaTakeHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0890827D594BA003FBA41 /* OviaTakeHomeUITests.swift */; };
+		4EA0892227D59698003FBA41 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0892127D59698003FBA41 /* RequestModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4EA0890427D594BA003FBA41 /* OviaTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OviaTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA0890827D594BA003FBA41 /* OviaTakeHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OviaTakeHomeUITests.swift; sourceTree = "<group>"; };
 		4EA0890A27D594BA003FBA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EA0892127D59698003FBA41 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,11 @@
 		4EA088E527D594AF003FBA41 /* OviaTakeHome */ = {
 			isa = PBXGroup;
 			children = (
+				4EA0892027D59652003FBA41 /* ViewModels */,
+				4EA0891F27D5964A003FBA41 /* Views */,
+				4EA0891E27D59642003FBA41 /* Service */,
+				4EA0891D27D5963B003FBA41 /* Utils */,
+				4EA0891C27D5962E003FBA41 /* Models */,
 				4EA088E627D594AF003FBA41 /* AppDelegate.swift */,
 				4EA088E827D594AF003FBA41 /* SceneDelegate.swift */,
 				4EA088EA27D594AF003FBA41 /* ViewController.swift */,
@@ -123,6 +130,42 @@
 				4EA0890A27D594BA003FBA41 /* Info.plist */,
 			);
 			path = OviaTakeHomeUITests;
+			sourceTree = "<group>";
+		};
+		4EA0891C27D5962E003FBA41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4EA0891D27D5963B003FBA41 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4EA0891E27D59642003FBA41 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4EA0891F27D5964A003FBA41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4EA0892027D59652003FBA41 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4EA0892127D59698003FBA41 /* RequestModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +300,7 @@
 				4EA088EB27D594AF003FBA41 /* ViewController.swift in Sources */,
 				4EA088E727D594AF003FBA41 /* AppDelegate.swift in Sources */,
 				4EA088E927D594AF003FBA41 /* SceneDelegate.swift in Sources */,
+				4EA0892227D59698003FBA41 /* RequestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
